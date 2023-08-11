@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+           
+           
+        <nav id="menu"> <!-- Menu -->
+            <div id="menu-contraido">
+                <input type="checkbox">
+                <span></span>
+            <ul>
+                <li><a class="cabecalho__menu__link" href="contato.html" >Contato</a></li>
+                <li><a class="cabecalho__menu__link" href="habilidades.html">Habilidades</a></li>
+                <li><a class="cabecalho__menu__link" href="about.html">Sobre mim</a></li>
+                <li><a class="cabecalho__menu__link" href="index.html" >Home</a></li>
+            </ul>
+            </div>
+        </nav>
+    
+ 
+    </header>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Entre em contato</h1>
+           
+            <form class="form" action="https://formsubmit.co/rafael.spaula@sp.senac.br" method="POST">
+                <label for="nome">Nome:</label> 
+                <input type="text" name="name" id="nome" placeholder="Preencha seu nome"required>
+
+
+                <label for="nome">E-mail:</label> 
+                <input type="email" name="email" id="email" placeholder="seuemail@email.com.br" required>
+
+                <label for="textarea">Sua Mensagem</label>
+                <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Sua mensagem..."></textarea>
+
+               <!--<input type="hidden" name="next" value=" colocar o local de hospedagem do projeto">--> 
+
+                <button type="submit">Enviar</button>
+
+                <!--<form action="https://formsubmit.co/your@email.com" method="POST">
+     <input type="text" name="name" required>
+     <input type="email" name="email" required>
+     <button type="submit">Send</button>
+</form>-->
+           </form>
+
+        </section>
+        <div class="tamanho-da-imagem">
+            <img src="imagens/rafael foto.jpg" width="620" height="480" alt= "Foto do Rafael Silva de Paula">
+            </div>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Rafael no programa Alura include</p>
+
+        <div class="alura" >
+            <img src="imagens/Logo_Alura_Include.svg" alt="">
+            </div>
+            <div class="senac" >
+                <img src="imagens/1200px-Senac_logo.svg (2).png" alt="">
+                </div>
+    </footer>
+</body>
+</html>
